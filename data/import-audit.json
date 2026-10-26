@@ -1,0 +1,534 @@
+{
+  "core": 2179,
+  "derived": 1158,
+  "rawDerived": 1159,
+  "testableDerived": 872,
+  "pending": 286,
+  "total": 3337,
+  "lessons": [
+    {
+      "id": "U1L1",
+      "unit": 1,
+      "lesson": 1,
+      "pages": "10-13",
+      "coreCount": 28,
+      "derivedCount": 13,
+      "auditStatus": "已核对",
+      "auditNote": "单元小结核心169/扩展81",
+      "testableDerivedCount": 11
+    },
+    {
+      "id": "U1L2",
+      "unit": 1,
+      "lesson": 2,
+      "pages": "14-19",
+      "coreCount": 46,
+      "derivedCount": 18,
+      "auditStatus": "已核对",
+      "auditNote": "单元小结核心169/扩展81",
+      "testableDerivedCount": 17
+    },
+    {
+      "id": "U1L3",
+      "unit": 1,
+      "lesson": 3,
+      "pages": "20-25",
+      "coreCount": 51,
+      "derivedCount": 23,
+      "auditStatus": "已核对",
+      "auditNote": "单元小结核心169/扩展81",
+      "testableDerivedCount": 20
+    },
+    {
+      "id": "U1L4",
+      "unit": 1,
+      "lesson": 4,
+      "pages": "26-30",
+      "coreCount": 44,
+      "derivedCount": 24,
+      "auditStatus": "已核对",
+      "auditNote": "单元小结核心169/扩展81",
+      "testableDerivedCount": 18
+    },
+    {
+      "id": "U2L1",
+      "unit": 2,
+      "lesson": 1,
+      "pages": "31-39",
+      "coreCount": 76,
+      "derivedCount": 38,
+      "auditStatus": "已核对",
+      "auditNote": "单元小结核心194/扩展97",
+      "testableDerivedCount": 28
+    },
+    {
+      "id": "U2L2",
+      "unit": 2,
+      "lesson": 2,
+      "pages": "40-45",
+      "coreCount": 46,
+      "derivedCount": 17,
+      "auditStatus": "已核对",
+      "auditNote": "单元小结核心194/扩展97",
+      "testableDerivedCount": 15
+    },
+    {
+      "id": "U2L3",
+      "unit": 2,
+      "lesson": 3,
+      "pages": "46-49",
+      "coreCount": 31,
+      "derivedCount": 12,
+      "auditStatus": "已核对",
+      "auditNote": "单元小结核心194/扩展97",
+      "testableDerivedCount": 12
+    },
+    {
+      "id": "U2L4",
+      "unit": 2,
+      "lesson": 4,
+      "pages": "50-55",
+      "coreCount": 41,
+      "derivedCount": 28,
+      "auditStatus": "已核对",
+      "auditNote": "单元小结核心194/扩展97",
+      "testableDerivedCount": 19
+    },
+    {
+      "id": "U3L1",
+      "unit": 3,
+      "lesson": 1,
+      "pages": "56-62",
+      "coreCount": 51,
+      "derivedCount": 39,
+      "auditStatus": "已核对",
+      "auditNote": "单元小结核心177/扩展116",
+      "testableDerivedCount": 25
+    },
+    {
+      "id": "U3L2",
+      "unit": 3,
+      "lesson": 2,
+      "pages": "63-67",
+      "coreCount": 34,
+      "derivedCount": 23,
+      "auditStatus": "已核对",
+      "auditNote": "单元小结核心177/扩展116",
+      "testableDerivedCount": 16
+    },
+    {
+      "id": "U3L3",
+      "unit": 3,
+      "lesson": 3,
+      "pages": "68-74",
+      "coreCount": 59,
+      "derivedCount": 27,
+      "auditStatus": "已核对",
+      "auditNote": "单元小结核心177/扩展116",
+      "testableDerivedCount": 22
+    },
+    {
+      "id": "U3L4",
+      "unit": 3,
+      "lesson": 4,
+      "pages": "75-80",
+      "coreCount": 33,
+      "derivedCount": 23,
+      "auditStatus": "已核对",
+      "auditNote": "单元小结核心177/扩展116",
+      "testableDerivedCount": 20
+    },
+    {
+      "id": "U4L1",
+      "unit": 4,
+      "lesson": 1,
+      "pages": "81-87",
+      "coreCount": 46,
+      "derivedCount": 26,
+      "auditStatus": "已核对",
+      "auditNote": "单元小结核心240/扩展144",
+      "testableDerivedCount": 20
+    },
+    {
+      "id": "U4L2",
+      "unit": 4,
+      "lesson": 2,
+      "pages": "88-93",
+      "coreCount": 54,
+      "derivedCount": 37,
+      "auditStatus": "已核对",
+      "auditNote": "单元小结核心240/扩展144",
+      "testableDerivedCount": 27
+    },
+    {
+      "id": "U4L3",
+      "unit": 4,
+      "lesson": 3,
+      "pages": "94-103",
+      "coreCount": 56,
+      "derivedCount": 30,
+      "auditStatus": "已核对",
+      "auditNote": "单元小结核心240/扩展144",
+      "testableDerivedCount": 22
+    },
+    {
+      "id": "U4L4",
+      "unit": 4,
+      "lesson": 4,
+      "pages": "104-111",
+      "coreCount": 84,
+      "derivedCount": 47,
+      "auditStatus": "已核对",
+      "auditNote": "单元小结核心240/扩展144",
+      "testableDerivedCount": 35
+    },
+    {
+      "id": "U5L1",
+      "unit": 5,
+      "lesson": 1,
+      "pages": "112-118",
+      "coreCount": 55,
+      "derivedCount": 41,
+      "auditStatus": "已核对",
+      "auditNote": "单元小结核心221/扩展131（小结页在p140）",
+      "testableDerivedCount": 28
+    },
+    {
+      "id": "U5L2",
+      "unit": 5,
+      "lesson": 2,
+      "pages": "119-125",
+      "coreCount": 52,
+      "derivedCount": 28,
+      "auditStatus": "已核对",
+      "auditNote": "单元小结核心221/扩展131（小结页在p140）",
+      "testableDerivedCount": 22
+    },
+    {
+      "id": "U5L3",
+      "unit": 5,
+      "lesson": 3,
+      "pages": "126-132",
+      "coreCount": 52,
+      "derivedCount": 32,
+      "auditStatus": "已核对",
+      "auditNote": "单元小结核心221/扩展131（小结页在p140）",
+      "testableDerivedCount": 24
+    },
+    {
+      "id": "U5L4",
+      "unit": 5,
+      "lesson": 4,
+      "pages": "133-140",
+      "coreCount": 61,
+      "derivedCount": 29,
+      "auditStatus": "已核对",
+      "auditNote": "单元小结核心221/扩展131（小结页在p140）",
+      "testableDerivedCount": 20
+    },
+    {
+      "id": "U6L1",
+      "unit": 6,
+      "lesson": 1,
+      "pages": "141-151",
+      "coreCount": 90,
+      "derivedCount": 39,
+      "auditStatus": "已核对",
+      "auditNote": "小结页未逐字复核扩展词数",
+      "testableDerivedCount": 28
+    },
+    {
+      "id": "U6L2",
+      "unit": 6,
+      "lesson": 2,
+      "pages": "152-157",
+      "coreCount": 41,
+      "derivedCount": 32,
+      "auditStatus": "已核对",
+      "auditNote": "小结页未逐字复核扩展词数",
+      "testableDerivedCount": 23
+    },
+    {
+      "id": "U6L3",
+      "unit": 6,
+      "lesson": 3,
+      "pages": "158-163",
+      "coreCount": 53,
+      "derivedCount": 18,
+      "auditStatus": "已核对",
+      "auditNote": "intermediary 在 p160 导图带扩标、p161 又为编号核心词，派生条目已删去以免与核心词重复；小结页未逐字复核扩展词数",
+      "testableDerivedCount": 13
+    },
+    {
+      "id": "U6L4",
+      "unit": 6,
+      "lesson": 4,
+      "pages": "164-168",
+      "coreCount": 38,
+      "derivedCount": 22,
+      "auditStatus": "已核对",
+      "auditNote": "小结页未逐字复核扩展词数",
+      "testableDerivedCount": 15
+    },
+    {
+      "id": "U7L1",
+      "unit": 7,
+      "lesson": 1,
+      "pages": "169-176",
+      "coreCount": 65,
+      "derivedCount": 44,
+      "auditStatus": "已核对",
+      "auditNote": "小结页未逐字复核扩展词数",
+      "testableDerivedCount": 28
+    },
+    {
+      "id": "U7L2",
+      "unit": 7,
+      "lesson": 2,
+      "pages": "177-184",
+      "coreCount": 58,
+      "derivedCount": 45,
+      "auditStatus": "已核对",
+      "auditNote": "小结页未逐字复核扩展词数",
+      "testableDerivedCount": 30
+    },
+    {
+      "id": "U7L3",
+      "unit": 7,
+      "lesson": 3,
+      "pages": "185-191",
+      "coreCount": 55,
+      "derivedCount": 16,
+      "auditStatus": "已核对",
+      "auditNote": "小结页未逐字复核扩展词数",
+      "testableDerivedCount": 12
+    },
+    {
+      "id": "U7L4",
+      "unit": 7,
+      "lesson": 4,
+      "pages": "192-197",
+      "coreCount": 46,
+      "derivedCount": 28,
+      "auditStatus": "已核对",
+      "auditNote": "小结页未逐字复核扩展词数",
+      "testableDerivedCount": 22
+    },
+    {
+      "id": "U8L1",
+      "unit": 8,
+      "lesson": 1,
+      "pages": "198-205",
+      "coreCount": 67,
+      "derivedCount": 9,
+      "auditStatus": "已核对",
+      "auditNote": "小结页未逐字复核扩展词数",
+      "testableDerivedCount": 9
+    },
+    {
+      "id": "U8L2",
+      "unit": 8,
+      "lesson": 2,
+      "pages": "206-212",
+      "coreCount": 52,
+      "derivedCount": 52,
+      "auditStatus": "已核对",
+      "auditNote": "小结页未逐字复核扩展词数",
+      "testableDerivedCount": 36
+    },
+    {
+      "id": "U8L3",
+      "unit": 8,
+      "lesson": 3,
+      "pages": "213-220",
+      "coreCount": 61,
+      "derivedCount": 37,
+      "auditStatus": "已核对",
+      "auditNote": "小结页未逐字复核扩展词数",
+      "testableDerivedCount": 28
+    },
+    {
+      "id": "U8L4",
+      "unit": 8,
+      "lesson": 4,
+      "pages": "221-226",
+      "coreCount": 48,
+      "derivedCount": 25,
+      "auditStatus": "已核对",
+      "auditNote": "小结页未逐字复核扩展词数",
+      "testableDerivedCount": 17
+    },
+    {
+      "id": "U9L1",
+      "unit": 9,
+      "lesson": 1,
+      "pages": "227-233",
+      "coreCount": 58,
+      "derivedCount": 26,
+      "auditStatus": "已核对",
+      "auditNote": "小结页未逐字复核扩展词数",
+      "testableDerivedCount": 23
+    },
+    {
+      "id": "U9L2",
+      "unit": 9,
+      "lesson": 2,
+      "pages": "234-240",
+      "coreCount": 55,
+      "derivedCount": 25,
+      "auditStatus": "已核对",
+      "auditNote": "小结页未逐字复核扩展词数",
+      "testableDerivedCount": 23
+    },
+    {
+      "id": "U9L3",
+      "unit": 9,
+      "lesson": 3,
+      "pages": "241-247",
+      "coreCount": 50,
+      "derivedCount": 26,
+      "auditStatus": "已核对",
+      "auditNote": "小结页未逐字复核扩展词数",
+      "testableDerivedCount": 20
+    },
+    {
+      "id": "U9L4",
+      "unit": 9,
+      "lesson": 4,
+      "pages": "248-254",
+      "coreCount": 60,
+      "derivedCount": 22,
+      "auditStatus": "已核对",
+      "auditNote": "小结页未逐字复核扩展词数",
+      "testableDerivedCount": 18
+    },
+    {
+      "id": "U10L1",
+      "unit": 10,
+      "lesson": 1,
+      "pages": "255-264",
+      "coreCount": 74,
+      "derivedCount": 36,
+      "auditStatus": "已核对",
+      "auditNote": "小结页未逐字复核扩展词数",
+      "testableDerivedCount": 28
+    },
+    {
+      "id": "U10L2",
+      "unit": 10,
+      "lesson": 2,
+      "pages": "265-274",
+      "coreCount": 80,
+      "derivedCount": 38,
+      "auditStatus": "已核对",
+      "auditNote": "小结页未逐字复核扩展词数",
+      "testableDerivedCount": 29
+    },
+    {
+      "id": "U10L3",
+      "unit": 10,
+      "lesson": 3,
+      "pages": "275-283",
+      "coreCount": 66,
+      "derivedCount": 43,
+      "auditStatus": "已核对",
+      "auditNote": "小结页未逐字复核扩展词数",
+      "testableDerivedCount": 34
+    },
+    {
+      "id": "U10L4",
+      "unit": 10,
+      "lesson": 4,
+      "pages": "284-292",
+      "coreCount": 62,
+      "derivedCount": 20,
+      "auditStatus": "已核对",
+      "auditNote": "小结页未逐字复核扩展词数",
+      "testableDerivedCount": 15
+    }
+  ],
+  "sourcePdfPages": "10–292",
+  "excludedRange": "PDF 293 页起基础词表及索引不在本次交接范围",
+  "duplicateResolution": {
+    "removed": "p145-suburban",
+    "retained": "p146-suburban"
+  },
+  "uncertainItems": [
+    {
+      "id": "unc-01",
+      "type": "词性存疑",
+      "page": 55,
+      "word": "civilise/-ize",
+      "detail": "扫描图像词性似印为 adj.，按语义应为 v.，已按 v. 记录并 verified=false，待回看原图",
+      "status": "待复核"
+    },
+    {
+      "id": "unc-02",
+      "type": "导图孤立词",
+      "page": 11,
+      "word": "prominence",
+      "detail": "词以群记2导图中带扩标但全书无词条，按约定仅列为候选、未收录",
+      "status": "候选未收录"
+    },
+    {
+      "id": "unc-03",
+      "type": "计数差异",
+      "page": 30,
+      "detail": "Unit1 小结扩展词81，实测79，差2；候选为 prominence 等仅见于导图的词",
+      "status": "未解决"
+    },
+    {
+      "id": "unc-04",
+      "type": "计数差异",
+      "page": 80,
+      "detail": "Unit3 小结扩展词116，实测117，多1；可能某灰色相关词被书计入核心或小结取整",
+      "status": "未解决"
+    },
+    {
+      "id": "unc-05",
+      "type": "计数差异",
+      "page": 140,
+      "detail": "Unit5 小结核心词221，逐课累计220（L1=55,L2=52,L3=52,L4=61），差1",
+      "status": "未解决"
+    },
+    {
+      "id": "unc-06",
+      "type": "扩标判断",
+      "page": 103,
+      "word": "imprisonment",
+      "detail": "橙色扩标系依据扫描颜色判断，建议回看原图确认",
+      "status": "低风险待复核"
+    },
+    {
+      "id": "unc-07",
+      "type": "扩标判断",
+      "page": 108,
+      "word": "subsequent",
+      "detail": "扩标系依据扫描颜色判断（导图中 sequence→subsequent 标扩），建议回看原图确认",
+      "status": "低风险待复核"
+    },
+    {
+      "id": "unc-08",
+      "type": "个别词待复核",
+      "page": 140,
+      "word": "alignment",
+      "detail": "沿自前次核对记录（126-292 范围），待回看原图",
+      "status": "待复核"
+    },
+    {
+      "id": "unc-09",
+      "type": "相关词批次",
+      "page": "全书",
+      "detail": "relation=相关词 且 verified=false 的条目共 213 条，系按用户决策收录（无编号、无扩标、有完整词条样式），非错误",
+      "status": "按约定处理"
+    },
+    {
+      "id": "unc-10",
+      "type": "小结未复核",
+      "page": 197,
+      "detail": "Unit6-10 各课小结的扩展词书内数字未逐页复核（核心词数此前已对上：222/224/228/223/282）",
+      "status": "未解决"
+    }
+  ],
+  "verification": "校验了结构、课程计数、父词关联和拼写格式；未逐页独立复核所有扫描页。verified 沿用交接标记，并保守隔离两条明确疑点。"
+}

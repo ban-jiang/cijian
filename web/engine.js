@@ -1,7 +1,7 @@
 export const defaults = { exam: "2026-12-12", budget: 30, baselinePage: 0, baselineWord: "" };
 export const intervals = [1, 3, 7, 14, 28];
 const spellingVariants = [["rigour", "rigor"], ["manoeuvre", "maneuver"], ["publicise", "publicize"], ["visualise", "visualize"], ["immunise", "immunize"], ["speciality", "specialty"], ["appal", "appall"]];
-export function spellingMatches(answer, word) { const a = answer.trim().toLowerCase(), w = word.toLowerCase(); return a === w || spellingVariants.some(group => group.includes(w) && group.includes(a)); }
+export function spellingMatches(answer, word, accepted = []) { const a = answer.trim().toLowerCase(), w = word.toLowerCase(); return a === w || accepted.some(v=>v.toLowerCase()===a) || spellingVariants.some(group => group.includes(w) && group.includes(a)); }
 export function day(at = new Date()) {
     return new Intl.DateTimeFormat("en-CA", { timeZone: "Asia/Shanghai", year: "numeric", month: "2-digit", day: "2-digit" }).format(new Date(at));
 }
@@ -17,7 +17,7 @@ export function mergeEvents(...sources) {
 }
 export function fold(words, events, settings) {
     const cutoff = words.findIndex(w => w.word.toLowerCase() === settings.baselineWord.toLowerCase());
-    const states = words.map((word, i) => ({ word, eligible: word.verified && (cutoff >= 0 ? i <= cutoff : word.page <= settings.baselinePage) }));
+    const states = words.map((word, i) => ({ word, eligible: word.verified && word.kind!=="derived" && (cutoff >= 0 ? i <= cutoff : word.page <= settings.baselinePage) }));
     const byId = new Map(states.map(s => [s.word.id, s]));
     for (const e of mergeEvents(events)) {
         const d = day(e.at);
