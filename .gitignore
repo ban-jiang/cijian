@@ -4,3 +4,14 @@ output/
 .sites-runtime/
 .netlify/
 *.tar.gz
+
+.wrangler/
+.vinext/
+generated/
+.env*
+.dev.vars*
+*.tsbuildinfo
+
+.next/
+dist/
+promotion/cijian-poster-v1.png

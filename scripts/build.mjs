@@ -13,3 +13,7 @@ html=html.replace(/<meta http-equiv="Content-Security-Policy"[^>]*>/,'').replace
 fs.mkdirSync(path.join(root,'dist'),{recursive:true});
 fs.writeFileSync(path.join(root,'dist/index.html'),html);
 console.log('Standalone quiz page built ('+Math.round(Buffer.byteLength(html)/1024)+' KB).');
+
+fs.mkdirSync(path.join(root,'generated'),{recursive:true});
+fs.writeFileSync(path.join(root,'generated/client-html.ts'),'export const clientHtml='+JSON.stringify(html)+';\n');
+fs.writeFileSync(path.join(root,'generated/admin-html.ts'),'export const adminHtml='+JSON.stringify(fs.readFileSync(path.join(root,'web/admin.html'),'utf8'))+';\n');
