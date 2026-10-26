@@ -1,0 +1,15 @@
+import fs from 'node:fs';
+import path from 'node:path';
+import {fileURLToPath} from 'node:url';
+import {createRequire} from 'node:module';
+const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
+const require=createRequire(path.resolve(root,'package.json')); 
+const {build}=require('esbuild');
+const result=await build({entryPoints:[path.join(root,'web/app.js')],bundle:true,format:'iife',target:'es2020',write:false,minify:true});
+let html=fs.readFileSync(path.join(root,'web/index.html'),'utf8');
+const css=fs.readFileSync(path.join(root,'web/style.css'),'utf8'),data=fs.readFileSync(path.join(root,'web/data.js'),'utf8');
+const script=data+'\n'+result.outputFiles[0].text;
+html=html.replace(/<meta http-equiv="Content-Security-Policy"[^>]*>/,'').replace('<link rel="icon" href="icon.svg">','').replace('<link rel="stylesheet" href="style.css">','<style>'+css+'</style>').replace('<script src="data.js"></script><script type="module" src="app.js"></script>','<script>'+script.replaceAll('</script','<\\/script')+'</script>');
+fs.mkdirSync(path.join(root,'dist'),{recursive:true});
+fs.writeFileSync(path.join(root,'dist/index.html'),html);
+console.log('Standalone quiz page built ('+Math.round(Buffer.byteLength(html)/1024)+' KB).');
